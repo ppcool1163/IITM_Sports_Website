@@ -1,0 +1,51 @@
+<%- include ("../partials/header") %>
+
+<body class="background">
+    <%- include ("../partials/navbar") %>
+    <div class="lead">
+        <img src="images/interiit_logo.png" alt=""  width="480px" style="padding:150px 0">
+        <h1 class="lead-head">#MADrush</h1>
+      </div>
+      <div class="album py-5 bg-dark events" style="padding:0">
+        <div class="container">
+          <h1 class="events-head">Upcoming Events</h1>
+          <div class="row" style="padding:0">
+            <% events.forEach(function(item){ %>
+            <% source = "https://drive.google.com/uc?export=view&id=" + item.Image_ID %>
+            <div class="col-sm-4" data-aos='fade-up'>
+              <div class="card mb-4 box-shadow" >
+                <img class="card-img-top" src=<%=source%> alt="Card image cap" style="max-height:300px; min-height:250px">
+                <div class="card-body">
+                  <p class="card-text"><%=item.Event_Description %></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href=<%= item.Event_URL %>><button type="button" class="btn btn-sm btn-outline-warning">Read more</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <% }) %>
+          </div>
+        </div>
+        <div class="event-btn">
+          <a href="https://www.instagram.com/iitmsports/"><button type="button" class="btn btn-lg btn-warning">More Events</button></a>
+        </div>
+        </div>
+        <div class="About-us" data-aos='zoom-in'>
+          <div class="about-body bg-dark">
+            <h1 class="about-head">About Us</h1
+            <p>IIT Madras, the home to some of the best brains in the country is also home to several top notch athletes. With the best
+              infrastructure facilities available on campus, IIT Madras boasts a sports culture that is of quite a high standard.
+              An Olympic size swimming pool, the impressive IIT-Chemplast cricket ground, a vast stadium and a hi-tech wood-floored
+              badminton court are all significant nodes of the exuberant sports culture here, in addition to the many grounds and fields
+              within and outside hostels. There are various sports events taking place throughout the year including intra-hostel events,
+              Schroeter- the Inter-hostel tournament, Agrata-the inter-collegiate tournament hosted by IIT Madras, and the ultimate
+              Inter IIT Sports Meet which is held annually in rotation by the older IITs.</p>
+          </div>
+        </div>
+        <%- include ("../partials/footer") %>
+        <%- include
+  ("../partials/scrollTop") %>
+
+    </body>

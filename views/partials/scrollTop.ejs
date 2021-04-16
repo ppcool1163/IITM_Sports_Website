@@ -1,0 +1,13 @@
+<a href="#" class="scrollToTop"
+  ><img class="scrollTop-img" src="/images/scrolltop.png"
+/></a>
+<script>
+  $(".scrollToTop").fadeOut();
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 100) {
+      $(".scrollToTop").fadeIn();
+    } else {
+      $(".scrollToTop").fadeOut();
+    }
+  });
+</script>

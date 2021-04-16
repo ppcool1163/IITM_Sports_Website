@@ -1,0 +1,54 @@
+<%- include ("../partials/header") %>
+<body class="bg-dark text-light">
+  <%- include ("../partials/navbar") %>
+  <div class="feedback">
+
+    <h1 class="feedback-h1">Hey!! We are glad to have you here!!</h1>
+    <h2 class="feedback-h2">Shall we have your details please!!</h2>
+
+    <form id="feedback" action="<%= formspreeURL %>" method="POST" onsubmit="submitHandler(event)">
+
+      <div class="feedback-form-wrap">
+
+        <div class="row">
+          <label class="feedback-label col-1 col-sm-2">Name:</label>
+          <input class="feedback-input col-9 col-sm-8" name="name" type="text" required placeholder="Your Name">
+        </div>
+
+        <div class="row">
+          <label class="feedback-label col-1 col-sm-2">Email:</label>
+          <input class="feedback-input col-9 col-sm-8" name="email_ID" type="email" required onkeypress="emailHandler(event)" placeholder="smail ID">
+          <p class="feedback-email-error feedback-hide">Please provide smail id only</p>
+        </div>
+
+      </div>
+
+      <h2 class="feedback-h2">write to us here:</h2>
+
+      <div class="feedback-form-wrap">
+
+        <textarea class="feedback-textarea" name="message" rows="10" placeholder="Type here....." required></textarea>
+
+      </div>
+
+      <button type="submit" class="btn btn-warning feedback-submit">Submit</button>
+
+    </form>
+  </div>
+
+  <script>
+    function submitHandler(event) {
+      let regexp = new RegExp('[A-za-z0-9]+@smail.iitm.ac.in');
+      email = document.querySelector('input[type="email"]');
+      if(!regexp.test(email.value)) {
+        document.getElementsByClassName("feedback-email-error")[0].classList.remove("feedback-hide");
+        event.preventDefault();
+      }
+    };
+    function emailHandler(event) {
+      document.getElementsByClassName("feedback-email-error")[0].classList.add("feedback-hide");
+    };
+  </script>
+  <%- include ("../partials/footer")%>
+  <%- include ("../partials/scrollTop") %>
+</body>
