@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "iitm-sports",
+  "private_key_id": "94b495303254946553905e005fb9a405fd1c157d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDuzm4lPznh20Dg\nyXRwwjlOblDulw/CQO9/0LbU8o1x4kRfE8RK75MdZF10kL+CHyCcyLk95HlixayX\nk4Z/MfgcLf43FA0bWYmGCIRewmBK5uavOSIsMQIucOLrWDCFQ9uPOXAhWYXIJ0C4\nYk5WNHYdPwXDlyepACCMdhczpNUjqyQz9+twwo/iOrL91dVEUys70XdAD8hZVlwf\nwn1FBSjPOiHYoo/wGmr/IbkUu9hbXCG/7nGFudCdLO9O7PXJGQQVrgvG+9oM5VuH\nAUCiV5FluE5+QT3oynY8qI1rLx+7I902XwCfDsWkno4cVIcLkoSSYhhiwBSppP6e\nNnTzHvftAgMBAAECggEAVUDL8K8oNlnkSPuSfrjP5ZCbgvnZ7eLpvYsg4lfvKBN7\njifL4Way8gDFHlqYi9cZ+O7ttstMjHb+fSR1FQ6dQU4oHbiiTzvBTWDYBM5GuybA\nfxiZ+wXJ/hNd51/V/pVxmimKvtUrXf+pasnppnvXGOzJXYCmb350oEB+WvkDAFal\nqFyH3DGYjdEln2br193Ht9o0hyiYtZWHPVvJ448gkH5pdf2/8+oAZ+3mS9m6HFSy\nteKms2SngvXe0I2Laq3mpSANyqI6MKYRaMjeT8Liyw9BduEyT1qDPfMWLDCE1Ok3\nalwPuEE4zFPTfegaUHFoetMhKMWUwcQDA1Jp6dgqzwKBgQD658MozvZWoZ2DiJFt\nXJ9WGWq7go8GPqMdnJQeC5/NM3ZED62L6ZLrYIMoJquydNl/daaqTK6rSvI3OXQp\nDOKUeMVj2K0EOaxnqJyIMkbwYmERCJpRaYWzaz66aVFMyBgXEeivR/EPiT2HXuWV\nV1rgGMj6Tz3h/UFZa9LQI4rbtwKBgQDzp8apUNFirdU64BSlziK130eVVgOUdWTr\nT+m50Cbn9/jTP8QzEALIJewlhFZtffaiEJ/BP4RnaJGAQnXth+QSzeHVrTFrjdwK\nJHNnP4T7yXERZTtrIbDTpDby8Bx/mz4wtZbO/hgaZL949uSrjNGmNlI7LVFTd7kv\nb/yoLDHRewKBgDmhNC1SZDh/xJsqqiSRarOvANny4gEQMA0kIs1H5DuQv3BgnX8O\ndkWEFHwLbdJ+jlp9XnutQ01q2Hmgw7KOGBj8KHKHmS3oRVZF3zZVPgAGyL7N2Awt\nDZ2pW24btKXLK+VYorZn8tGbtzs5q8gCmYfxiXAc9VzL+8+bOX+/Oiy/AoGBAOAj\nA3X3uVW8MT2iqnvH/1gs2E3AvTRRNY/diFT87P1QuB2kOBj87oItmGj+rv6z9DAr\neLotcuApakeBW7gw3JaLu+ZzFtYovjS6SUq+PNfd+9wTsrAfYumd00pxpNWh+niW\nYu9xAL0u1pAxFjPVK3pp2AVF790Hclv3+YS+eumHAoGBAIXwZ+oCbGwm3FmS+A5/\nWYfuUY6Zg0OOTIi3GZPB98XJ6YqBVPsxaXSqbLb9z1jDFYxDmIFgO0of1mDGfRri\nltKHoVztAHIaPgwq3rNhVH54J3YYjdeu70bLVogEmT21dgPfF1uPcOKfagMf4sGB\nEzlrlSl1jwJuSW/mEoPUYvxT\n-----END PRIVATE KEY-----\n",
+  "client_email": "soc-85@iitm-sports.iam.gserviceaccount.com",
+  "client_id": "117579874484111849337",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/soc-85%40iitm-sports.iam.gserviceaccount.com"
+}
