@@ -1,0 +1,380 @@
+
+.background {
+  height: 100vh;
+  background: url("../images/SOCB12.png") center center no-repeat;
+  background-size: cover;
+  overflow-y: scroll;
+  background-attachment:fixed;
+}
+
+.lead {
+  min-height: 720px;
+  text-align: center;
+}
+
+.lead-head {
+  font-size: 3rem;
+  color: #fa7d09;
+  padding-bottom: 120px;
+}
+
+.events{
+  margin: auto 5%;
+  border-radius: 10%;
+}
+.events-head {
+  font-size: 2.5rem;
+  color: #fa7d09;
+  text-align: center;
+  margin: 0 auto 40px;
+}
+
+.about-head {
+  font-size: 2.5rem;
+  color: #fa7d09;
+  text-align: center;
+  margin: 0 auto 3%;
+}
+
+.about-body {
+  border-radius: 10%;
+  padding: 2% 2%;
+  margin: 5% 5% 5%;
+  color: #fa7d09;
+  font-size: 1.5rem;
+}
+
+.event-btn {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 2% auto 0;
+}
+
+.footer {
+  font-size: 2rem;
+  text-align: center;
+  color: #fa7d09;
+  padding-top: 1px;
+  margin-bottom: 0;
+}
+
+.footer-head {
+  margin: 1% auto 0;
+  font-weight: lighter;
+}
+
+.icon {
+  font-size: 1.5rem;
+  margin: 0 0.7% 0;
+  color: #fa7d09;
+}
+
+.icon:hover {
+  color: #2f2519;
+}
+
+.contact {
+  font-size: 1.5rem;
+  display: inline-block;
+  color: #fa7d09;
+  text-decoration: none;
+  margin: 1% 2%;
+}
+
+.contact:hover {
+  color: #2f2519;
+  text-decoration: none;
+}
+/* Sports/InterIIT */
+.sport-icon:hover .sport-name{
+  text-decoration: none;
+  color: #2f2519;
+}
+
+.sport-name{
+  color: #fa7d09;
+  font-size: 2rem;
+  margin: 1% 0 2%;
+}
+
+.club-icon-desc{
+  color:#fa7d09;
+  font-size:1.3rem;
+  margin: 1% 0 3%;
+}
+
+.club-link:hover .club-icon-desc{
+  text-decoration: none;
+  color:#2f2519;
+}
+
+.club-icon{
+  color: #fa7d09;
+  font-size: 1.5rem;
+}
+
+/*History*/
+.iitm-body {
+  padding: 0 2%;
+  margin: 0 5% 3% ;
+  color: #fa7d09;
+  font-size: 1.5rem;
+}
+
+.iitm-body-mid {
+  padding: 0 2%;
+  margin: -5% 5% 3% ;
+  color: #fa7d09;
+  font-size: 1.5rem;
+}
+
+/* People-Wall of Fame */
+.wof-row {
+  margin: 4% 0;
+}
+
+.wof-name{
+  color: #fa7d09;
+  font-size: 1.5rem;
+  margin: 1% 0 2%;
+}
+
+.wof-name b{
+  font-size: 1.8rem;
+}
+/* Feedback Page */
+
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+} */
+
+.Feedback-SOC-Content {
+  margin-top: 100px;
+  margin-bottom: 7%
+}
+
+.container{
+  margin-bottom: 7%
+}
+
+.pos-title{
+  color: #fa7d09;
+  font-size: 2.5rem
+}
+
+.align-center {
+  background-color: #000;
+  margin: 10px auto;
+}
+
+.profile-resize {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 0;
+}
+
+.name{
+  text-align: center;
+  font-size: 2rem;
+  color: #fa7d09
+}
+
+.name1{
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fa7d09
+}
+
+.button{
+  margin: 10% 0 -19.8px -19px;
+  width: 56.6%;
+  display: inline-block;
+  background-color: #fa7d09
+}
+
+.button1{
+  margin: 10% -22px -19.8px 0;
+  width: 57.5%;
+  background-color: #fa7d09
+}
+
+.icon1{
+  font-size: 1.5rem
+}
+.button:hover,.button1:hover{
+  background-color: #000;
+  color: #fa7d09
+}
+
+.card {
+  border-width: 0;
+  margin: 30px auto;
+  width: 18rem;
+}
+
+.img-resize {
+  width: 3%;
+  margin: 0 20px;
+}
+
+/* .d-flex {
+  margin: 0 100px;
+} */
+
+/* #root {
+  background-color: #252525;
+} */
+
+/* .back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+} */
+
+.scrollTop-img {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+}
+
+/* Styles for results*/
+.res-body {
+  display: flex;
+  justify-content: center;
+  align-items:baseline;
+}
+
+.grid {
+  display:grid;
+  width:75%;
+  grid-gap: 6rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  align-items: center;
+  margin-bottom: 7rem;
+}
+
+.grid-item {
+  background-color: #000;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+  transition:0.5s;
+}
+
+.grid-item:hover {
+  transform:scale(1.05);
+}
+
+.cards-content {
+  padding: 1.2rem 0 0;
+}
+
+.cards-header {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #fa7d09;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.cards-text {
+  background-color:#343a40;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.7;
+  color: #fa7d09;
+  margin-bottom: 0%;
+}
+
+@media only screen and (max-width: 60em) {
+  .res-body {
+    padding: 3rem;
+  }
+
+  .grid {
+    grid-gap: 3rem;
+  }
+}
+
+/* styles for /feedback */
+.feedback {
+  margin: 90px auto auto;
+  padding-left: 3%;
+}
+.feedback-h1 {
+  font-family: 'Pacifico', cursive;
+  color: #fa7d09;
+}
+.feedback-h2 {
+  font-family: 'Oswald', sans-serif;
+  margin: 3% 0 2% 5%;
+  color: #fa7d09;
+}
+.feedback-form-wrap {
+  background-color: #fa7d09;
+  border-radius: 30px;
+  color: black;
+  margin: 1% 10%;
+  padding: 3% 2% 2%;
+  width: 65%;
+}
+.feedback-label {
+  margin-left: 2%;
+}
+.feedback-input {
+  border: none;
+  border-radius: 30px;
+  margin: 0 0 2% 10%;
+}
+.feedback-textarea {
+  border: none;
+  border-radius: 30px;
+  padding: 5% 0 0 4%;
+  width: 100%;
+}
+.feedback-submit {
+  margin: 1% 0 2% 35%;
+}
+.feedback-submit:hover {
+  background-color: #fa7d09;
+}
+.feedback-email-error {
+  margin: 0 0 0 30%;
+  background-color: black;
+  color: white;
+}
+.feedback-hide {
+  display: none;
+}
+@media (max-width: 680px) {
+  .feedback-h1, .feedback-h2 {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 825px) {
+  .feedback {
+    width: 80%
+  }
+}
+@media (min-width: 1100px) {
+  .feedback {
+    width: 70%
+  }
+}
+@media (min-width: 1200px) {
+  .feedback {
+    width: 60%
+  }
+}
+@media (min-width: 1340px) {
+  .feedback {
+    width: 50%
+  }
+}
