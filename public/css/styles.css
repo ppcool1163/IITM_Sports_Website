@@ -17,7 +17,11 @@
   color: #fa7d09;
   padding-bottom: 120px;
 }
-
+@media (max-width: 680px) {
+  .lead-head {
+    font-size: 1.75rem;
+  }
+}
 .events{
   margin: auto 5%;
   border-radius: 10%;
