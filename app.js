@@ -33,110 +33,110 @@ app.get("/", async function (req, res) {
 
 
 // EVENTS
-app.get('/iitmsports/events',function(req,res){
+app.get('/events',function(req,res){
   res.render('pages/events')
 })
 
 // Sports
 
 // inter-iit sports
-app.get("/iitmsports/interiit", function (req, res) {
+app.get("/interiit", function (req, res) {
   res.render("pages/sports/interiit");
 });
 
-app.get("/iitmsports/athletics", function (req, res) {
+app.get("/athletics", function (req, res) {
   res.render("pages/sports/interiit-sports/athletics");
 });
 
-app.get("/iitmsports/aquatics", function (req, res) {
+app.get("/aquatics", function (req, res) {
   res.render("pages/sports/interiit-sports/aquatics");
 });
 
-app.get("/iitmsports/badminton", function (req, res) {
+app.get("/badminton", function (req, res) {
   res.render("pages/sports/interiit-sports/badminton");
 });
 
-app.get("/iitmsports/basketball", function (req, res) {
+app.get("/basketball", function (req, res) {
   res.render("pages/sports/interiit-sports/basketball");
 });
 
-app.get("/iitmsports/chess", function (req, res) {
+app.get("/chess", function (req, res) {
   res.render("pages/sports/interiit-sports/chess");
 });
 
-app.get("/iitmsports/cricket", function (req, res) {
+app.get("/cricket", function (req, res) {
   res.render("pages/sports/interiit-sports/cricket");
 });
 
-app.get("/iitmsports/football", function (req, res) {
+app.get("/football", function (req, res) {
   res.render("pages/sports/interiit-sports/football");
 });
 
-app.get("/iitmsports/hockey", function (req, res) {
+app.get("/hockey", function (req, res) {
   res.render("pages/sports/interiit-sports/hockey");
 });
 
-app.get("/iitmsports/squash", function (req, res) {
+app.get("/squash", function (req, res) {
   res.render("pages/sports/interiit-sports/squash");
 });
 
-app.get("/iitmsports/tennis", function (req, res) {
+app.get("/tennis", function (req, res) {
   res.render("pages/sports/interiit-sports/tennis");
 });
 
-app.get("/iitmsports/tabletennis", function (req, res) {
+app.get("/tabletennis", function (req, res) {
   res.render("pages/sports/interiit-sports/tabletennis");
 });
 
-app.get("/iitmsports/volleyball", function (req, res) {
+app.get("/volleyball", function (req, res) {
   res.render("pages/sports/interiit-sports/volleyball");
 });
 
-app.get("/iitmsports/waterpolo", function (req, res) {
+app.get("/waterpolo", function (req, res) {
   res.render("pages/sports/interiit-sports/waterpolo");
 });
 
-app.get("/iitmsports/weightlifting", function (req, res) {
+app.get("/weightlifting", function (req, res) {
   res.render("pages/sports/interiit-sports/weightlifting");
 });
 
 
 // non-interiit Sports
-app.get('/iitmsports/non-interiit', function(req,res){
+app.get('/non-interiit', function(req,res){
   res.render('pages/sports/non-interiit')
 });
 
-app.get('/iitmsports/bridge', function(req,res){
+app.get('/bridge', function(req,res){
   res.render('pages/sports/non-interiit/bridge')
 });
 
-app.get('/iitmsports/cycling', function(req,res){
+app.get('/cycling', function(req,res){
   res.render('pages/sports/non-interiit/cycling')
 });
 
-app.get('/iitmsports/fitness', function(req,res){
+app.get('/fitness', function(req,res){
   res.render('pages/sports/non-interiit/fitness')
 });
 
-app.get('/iitmsports/forestgumps', function(req,res){
+app.get('/forestgumps', function(req,res){
   res.render('pages/sports/non-interiit/forest')
 });
 
-app.get('/iitmsports/frisbee', function(req,res){
+app.get('/frisbee', function(req,res){
   res.render('pages/sports/non-interiit/frisbee')
 });
 
-app.get('/iitmsports/triathlon', function(req,res){
+app.get('/triathlon', function(req,res){
   res.render('pages/sports/non-interiit/triathlon')
 });
 // Facilities/Grounds
-app.get('/iitmsports/facilities', function(req,res){
+app.get('/facilities', function(req,res){
   res.render('pages/sports/facilities')
 })
 
 
 // HISTORY IITM
-app.get('/iitmsports/history-iitm', function(req,res){
+app.get('/history-iitm', function(req,res){
   res.render('pages/history/iitm')
 });
 
@@ -162,26 +162,26 @@ app.get('/iitmsports/history-iitm', function(req,res){
 // PEOPLE
 
 // Hall of fame
-app.get('/iitmsports/halloffame', function(req,res){
+app.get('/halloffame', function(req,res){
   res.render('pages/people/wallOfFame')
 })
 
 // SOC
-app.get("/iitmsports/SOC", function (req, res) {
+app.get("/SOC", function (req, res) {
   res.render("pages/people/SOC");
 });
 
 // Gymkhana
-app.get("/iitmsports/gymkhana", function (req, res) {
+app.get("/gymkhana", function (req, res) {
   res.render("pages/people/Gymkhana");
 });
 
 // Results
-app.get("/iitmsports/results", function (req, res) {
+app.get("/results", function (req, res) {
   res.render("pages/results");
 });
 // FEEDBACK
-app.get('/iitmsports/feedback', function(req,res){
+app.get('/feedback', function(req,res){
   formspreeURL = "https://formspree.io/" + env.parsed.FORMSPREE_ID;
   res.render('pages/Feedback', {formspreeURL : formspreeURL});
 })
